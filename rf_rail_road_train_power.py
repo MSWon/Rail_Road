@@ -66,7 +66,7 @@ def MSE(a,b):
 
 
 window = 10
-path_model = "./ver_2.7/north_power_model_rf.pkl"
+path_model = "./north_power_model_rf.pkl"
 
 train_batch = make_batch(train_data)
 X_train, Y_train = make_window(train_batch, window, "power")
